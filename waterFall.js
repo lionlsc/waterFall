@@ -37,7 +37,7 @@ window.onload=function () {
             }
         }
     }
-    appendNode();
+    appendNode();                                                   //先增加一些节点，对不同浏览器进行兼容，有些浏览器能显示很多元素从而没有滚动条
     function appendNode() {                                         //下滑时增加节点
         let  tempNodes=[];                                          //定义一个节点数组
         for (let j=0;j<item;j++){
