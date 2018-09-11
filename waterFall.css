@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+#content{
+    width: 1284px;
+    position: absolute;
+    left: 50%;
+    margin-left: -642px;
+    text-align: center;
+}
+.box{
+    float: left;
+    box-sizing: padding-box;
+}
+.imgBox{
+    padding: 5px;
+    border: 2px solid #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+
+}
+.box .imgBox img{
+    width: 200px;
+    height: auto;
+}
